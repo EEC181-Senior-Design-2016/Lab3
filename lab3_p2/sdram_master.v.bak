@@ -1,0 +1,55 @@
+module sdram_master(
+input						clk,
+input						waitrequest,
+input						readdatavalid,
+input 		[15:0]	readdata,
+input						reset_n
+
+output reg 				read_n = 1,
+output reg				write_n = 1,
+output reg				chipselect,
+output reg 	[31:0]	address = 0,
+output reg 	[1:0]		byteenable,
+output reg	[15:0]	writedata,
+);
+
+reg Next_R_n;
+reg Next_W_n;
+reg Next_cs = 0;
+reg [31:0] 	Next_addr = 0;
+reg [1:0]	Next_BE;
+reg [15:0]	Next_WD;
+reg [15:0]	Max = 0;
+reg [15:0]	Min = 4'hFFFF; 
+reg [3:0]	Items = 0;
+reg [3:0]	Next_items = 0;
+
+
+always @ (posedge clk) begin
+
+	if(!reset_n) begin
+	
+	end // if
+	
+	else begin
+	
+	end
+
+end // always
+
+
+always (waitrequest, readdatavalid) begin
+
+	if (!waitrequest && readdatavalid) begin
+		
+	end
+	else begin
+	
+	end
+
+
+end // always
+
+
+
+endmodule

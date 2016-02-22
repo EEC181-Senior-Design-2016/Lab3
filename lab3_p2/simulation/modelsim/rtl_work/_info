@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/julam5/Desktop/lab3/lab3_p2/simulation/modelsim
+vsdram_master
+!s110 1454540884
+!i10b 1
+!s100 B3hFIoKLOK6IQzYgoF?@H3
+I_DemJRhPVGM120cDZX2d90
+V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1454540765
+8/home/julam5/Desktop/lab3/lab3_p2/sdram_master.v
+F/home/julam5/Desktop/lab3/lab3_p2/sdram_master.v
+L0 1
+OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1454540884.436659
+!s107 /home/julam5/Desktop/lab3/lab3_p2/sdram_master.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/julam5/Desktop/lab3/lab3_p2|/home/julam5/Desktop/lab3/lab3_p2/sdram_master.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+/home/julam5/Desktop/lab3/lab3_p2

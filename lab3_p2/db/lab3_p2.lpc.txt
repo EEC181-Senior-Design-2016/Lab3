@@ -1,0 +1,4909 @@
++--------------------------------------------------------------------------------+
+; Legal Partition Candidates                                                     ;
++--------------------------------------------------------------------------------+
+Hierarchy         : u0|rst_controller_001|alt_rst_req_sync_uq1
+Input             : 2
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 1
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|rst_controller_001|alt_rst_sync_uq1
+Input             : 2
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|rst_controller_001
+Input             : 33
+Constant Input    : 31
+Unused Input      : 0
+Floating Input    : 31
+Output            : 1
+Constant Output   : 31
+Unused Output     : 31
+Floating Output   : 31
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|rst_controller|alt_rst_req_sync_uq1
+Input             : 2
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 1
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|rst_controller|alt_rst_sync_uq1
+Input             : 2
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|rst_controller
+Input             : 33
+Constant Input    : 31
+Unused Input      : 0
+Floating Input    : 31
+Output            : 2
+Constant Output   : 31
+Unused Output     : 31
+Floating Output   : 31
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|irq_mapper_001
+Input             : 0
+Constant Input    : 32
+Unused Input      : 0
+Floating Input    : 32
+Output            : 32
+Constant Output   : 32
+Unused Output     : 32
+Floating Output   : 32
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|irq_mapper
+Input             : 2
+Constant Input    : 30
+Unused Input      : 0
+Floating Input    : 30
+Output            : 32
+Constant Output   : 30
+Unused Output     : 30
+Floating Output   : 30
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|avalon_st_adapter_003|error_adapter_0
+Input             : 38
+Constant Input    : 1
+Unused Input      : 2
+Floating Input    : 1
+Output            : 37
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|avalon_st_adapter_003
+Input             : 38
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 37
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|avalon_st_adapter_002|error_adapter_0
+Input             : 38
+Constant Input    : 1
+Unused Input      : 2
+Floating Input    : 1
+Output            : 37
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|avalon_st_adapter_002
+Input             : 38
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 37
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|avalon_st_adapter_001|error_adapter_0
+Input             : 38
+Constant Input    : 1
+Unused Input      : 2
+Floating Input    : 1
+Output            : 37
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|avalon_st_adapter_001
+Input             : 38
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 37
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|avalon_st_adapter|error_adapter_0
+Input             : 38
+Constant Input    : 1
+Unused Input      : 2
+Floating Input    : 1
+Output            : 37
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|avalon_st_adapter
+Input             : 38
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 37
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|rsp_mux_001|arb|adder
+Input             : 16
+Constant Input    : 8
+Unused Input      : 0
+Floating Input    : 8
+Output            : 8
+Constant Output   : 8
+Unused Output     : 8
+Floating Output   : 8
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|rsp_mux_001|arb
+Input             : 8
+Constant Input    : 0
+Unused Input      : 4
+Floating Input    : 0
+Output            : 4
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|rsp_mux_001
+Input             : 487
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 125
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|rsp_mux|arb|adder
+Input             : 16
+Constant Input    : 8
+Unused Input      : 0
+Floating Input    : 8
+Output            : 8
+Constant Output   : 8
+Unused Output     : 8
+Floating Output   : 8
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|rsp_mux|arb
+Input             : 8
+Constant Input    : 0
+Unused Input      : 4
+Floating Input    : 0
+Output            : 4
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|rsp_mux
+Input             : 487
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 125
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|rsp_demux_003
+Input             : 125
+Constant Input    : 4
+Unused Input      : 2
+Floating Input    : 4
+Output            : 243
+Constant Output   : 4
+Unused Output     : 4
+Floating Output   : 4
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|rsp_demux_002
+Input             : 125
+Constant Input    : 4
+Unused Input      : 2
+Floating Input    : 4
+Output            : 243
+Constant Output   : 4
+Unused Output     : 4
+Floating Output   : 4
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|rsp_demux_001
+Input             : 125
+Constant Input    : 4
+Unused Input      : 2
+Floating Input    : 4
+Output            : 243
+Constant Output   : 4
+Unused Output     : 4
+Floating Output   : 4
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|rsp_demux
+Input             : 125
+Constant Input    : 4
+Unused Input      : 2
+Floating Input    : 4
+Output            : 243
+Constant Output   : 4
+Unused Output     : 4
+Floating Output   : 4
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|cmd_mux_003|arb|adder
+Input             : 8
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 4
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|cmd_mux_003|arb
+Input             : 6
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 2
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|cmd_mux_003
+Input             : 245
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 123
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|cmd_mux_002|arb|adder
+Input             : 8
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 4
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|cmd_mux_002|arb
+Input             : 6
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 2
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|cmd_mux_002
+Input             : 245
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 123
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|cmd_mux_001|arb|adder
+Input             : 8
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 4
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|cmd_mux_001|arb
+Input             : 6
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 2
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|cmd_mux_001
+Input             : 245
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 123
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|cmd_mux|arb|adder
+Input             : 8
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 4
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|cmd_mux|arb
+Input             : 6
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 2
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|cmd_mux
+Input             : 245
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 123
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|cmd_demux_001
+Input             : 130
+Constant Input    : 16
+Unused Input      : 2
+Floating Input    : 16
+Output            : 485
+Constant Output   : 16
+Unused Output     : 16
+Floating Output   : 16
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|cmd_demux
+Input             : 130
+Constant Input    : 16
+Unused Input      : 2
+Floating Input    : 16
+Output            : 485
+Constant Output   : 16
+Unused Output     : 16
+Floating Output   : 16
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|done_input_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|dc_sub|subtract
+Input             : 17
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 8
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|done_input_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|dc_sub
+Input             : 16
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 8
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|done_input_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|db_sub|subtract
+Input             : 17
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 8
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|done_input_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|db_sub
+Input             : 16
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 8
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|done_input_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|da_sub|subtract
+Input             : 17
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 8
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|done_input_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|da_sub
+Input             : 16
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 8
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|done_input_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|bc_sub|subtract
+Input             : 17
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 8
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|done_input_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|bc_sub
+Input             : 16
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 8
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|done_input_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|ac_sub|subtract
+Input             : 17
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 8
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|done_input_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|ac_sub
+Input             : 16
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 8
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|done_input_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|ab_sub|subtract
+Input             : 17
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 8
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|done_input_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|ab_sub
+Input             : 16
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 8
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|done_input_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min
+Input             : 31
+Constant Input    : 0
+Unused Input      : 2
+Floating Input    : 0
+Output            : 7
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|done_input_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_burstwrap_increment
+Input             : 7
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 7
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|done_input_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|align_address_to_size
+Input             : 29
+Constant Input    : 5
+Unused Input      : 0
+Floating Input    : 5
+Output            : 23
+Constant Output   : 5
+Unused Output     : 5
+Floating Output   : 5
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|done_input_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter
+Input             : 124
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 122
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|done_input_s1_burst_adapter
+Input             : 124
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 122
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|ready_output_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|dc_sub|subtract
+Input             : 17
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 8
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|ready_output_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|dc_sub
+Input             : 16
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 8
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|ready_output_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|db_sub|subtract
+Input             : 17
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 8
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|ready_output_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|db_sub
+Input             : 16
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 8
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|ready_output_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|da_sub|subtract
+Input             : 17
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 8
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|ready_output_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|da_sub
+Input             : 16
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 8
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|ready_output_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|bc_sub|subtract
+Input             : 17
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 8
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|ready_output_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|bc_sub
+Input             : 16
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 8
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|ready_output_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|ac_sub|subtract
+Input             : 17
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 8
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|ready_output_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|ac_sub
+Input             : 16
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 8
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|ready_output_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|ab_sub|subtract
+Input             : 17
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 8
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|ready_output_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|ab_sub
+Input             : 16
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 8
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|ready_output_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min
+Input             : 31
+Constant Input    : 0
+Unused Input      : 2
+Floating Input    : 0
+Output            : 7
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|ready_output_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_burstwrap_increment
+Input             : 7
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 7
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|ready_output_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|align_address_to_size
+Input             : 29
+Constant Input    : 5
+Unused Input      : 0
+Floating Input    : 5
+Output            : 23
+Constant Output   : 5
+Unused Output     : 5
+Floating Output   : 5
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|ready_output_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter
+Input             : 124
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 122
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|ready_output_s1_burst_adapter
+Input             : 124
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 122
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|pushbutton_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|dc_sub|subtract
+Input             : 17
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 8
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|pushbutton_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|dc_sub
+Input             : 16
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 8
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|pushbutton_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|db_sub|subtract
+Input             : 17
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 8
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|pushbutton_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|db_sub
+Input             : 16
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 8
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|pushbutton_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|da_sub|subtract
+Input             : 17
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 8
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|pushbutton_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|da_sub
+Input             : 16
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 8
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|pushbutton_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|bc_sub|subtract
+Input             : 17
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 8
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|pushbutton_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|bc_sub
+Input             : 16
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 8
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|pushbutton_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|ac_sub|subtract
+Input             : 17
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 8
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|pushbutton_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|ac_sub
+Input             : 16
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 8
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|pushbutton_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|ab_sub|subtract
+Input             : 17
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 8
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|pushbutton_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|ab_sub
+Input             : 16
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 8
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|pushbutton_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min
+Input             : 31
+Constant Input    : 0
+Unused Input      : 2
+Floating Input    : 0
+Output            : 7
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|pushbutton_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_burstwrap_increment
+Input             : 7
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 7
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|pushbutton_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|align_address_to_size
+Input             : 29
+Constant Input    : 5
+Unused Input      : 0
+Floating Input    : 5
+Output            : 23
+Constant Output   : 5
+Unused Output     : 5
+Floating Output   : 5
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|pushbutton_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter
+Input             : 124
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 122
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|pushbutton_s1_burst_adapter
+Input             : 124
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 122
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|jtag_uart_0_avalon_jtag_slave_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|dc_sub|subtract
+Input             : 17
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 8
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|jtag_uart_0_avalon_jtag_slave_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|dc_sub
+Input             : 16
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 8
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|jtag_uart_0_avalon_jtag_slave_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|db_sub|subtract
+Input             : 17
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 8
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|jtag_uart_0_avalon_jtag_slave_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|db_sub
+Input             : 16
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 8
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|jtag_uart_0_avalon_jtag_slave_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|da_sub|subtract
+Input             : 17
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 8
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|jtag_uart_0_avalon_jtag_slave_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|da_sub
+Input             : 16
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 8
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|jtag_uart_0_avalon_jtag_slave_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|bc_sub|subtract
+Input             : 17
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 8
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|jtag_uart_0_avalon_jtag_slave_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|bc_sub
+Input             : 16
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 8
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|jtag_uart_0_avalon_jtag_slave_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|ac_sub|subtract
+Input             : 17
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 8
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|jtag_uart_0_avalon_jtag_slave_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|ac_sub
+Input             : 16
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 8
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|jtag_uart_0_avalon_jtag_slave_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|ab_sub|subtract
+Input             : 17
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 8
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|jtag_uart_0_avalon_jtag_slave_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|ab_sub
+Input             : 16
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 8
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|jtag_uart_0_avalon_jtag_slave_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min
+Input             : 31
+Constant Input    : 0
+Unused Input      : 2
+Floating Input    : 0
+Output            : 7
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|jtag_uart_0_avalon_jtag_slave_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_burstwrap_increment
+Input             : 7
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 7
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|jtag_uart_0_avalon_jtag_slave_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|align_address_to_size
+Input             : 29
+Constant Input    : 5
+Unused Input      : 0
+Floating Input    : 5
+Output            : 23
+Constant Output   : 5
+Unused Output     : 5
+Floating Output   : 5
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|jtag_uart_0_avalon_jtag_slave_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter
+Input             : 124
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 122
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|jtag_uart_0_avalon_jtag_slave_burst_adapter
+Input             : 124
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 122
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|hps_0_h2f_lw_axi_master_rd_limiter
+Input             : 246
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 247
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|hps_0_h2f_lw_axi_master_wr_limiter
+Input             : 246
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 247
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|router_005|the_default_decode
+Input             : 0
+Constant Input    : 8
+Unused Input      : 0
+Floating Input    : 8
+Output            : 8
+Constant Output   : 8
+Unused Output     : 8
+Floating Output   : 8
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|router_005
+Input             : 120
+Constant Input    : 0
+Unused Input      : 2
+Floating Input    : 0
+Output            : 122
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|router_004|the_default_decode
+Input             : 0
+Constant Input    : 8
+Unused Input      : 0
+Floating Input    : 8
+Output            : 8
+Constant Output   : 8
+Unused Output     : 8
+Floating Output   : 8
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|router_004
+Input             : 120
+Constant Input    : 0
+Unused Input      : 2
+Floating Input    : 0
+Output            : 122
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|router_003|the_default_decode
+Input             : 0
+Constant Input    : 8
+Unused Input      : 0
+Floating Input    : 8
+Output            : 8
+Constant Output   : 8
+Unused Output     : 8
+Floating Output   : 8
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|router_003
+Input             : 120
+Constant Input    : 0
+Unused Input      : 2
+Floating Input    : 0
+Output            : 122
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|router_002|the_default_decode
+Input             : 0
+Constant Input    : 8
+Unused Input      : 0
+Floating Input    : 8
+Output            : 8
+Constant Output   : 8
+Unused Output     : 8
+Floating Output   : 8
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|router_002
+Input             : 120
+Constant Input    : 0
+Unused Input      : 2
+Floating Input    : 0
+Output            : 122
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|router_001|the_default_decode
+Input             : 0
+Constant Input    : 6
+Unused Input      : 0
+Floating Input    : 6
+Output            : 6
+Constant Output   : 6
+Unused Output     : 6
+Floating Output   : 6
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|router_001
+Input             : 120
+Constant Input    : 0
+Unused Input      : 4
+Floating Input    : 0
+Output            : 122
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|router|the_default_decode
+Input             : 0
+Constant Input    : 6
+Unused Input      : 0
+Floating Input    : 6
+Output            : 6
+Constant Output   : 6
+Unused Output     : 6
+Floating Output   : 6
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|router
+Input             : 120
+Constant Input    : 0
+Unused Input      : 4
+Floating Input    : 0
+Output            : 122
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|done_input_s1_agent_rdata_fifo
+Input             : 79
+Constant Input    : 41
+Unused Input      : 0
+Floating Input    : 41
+Output            : 36
+Constant Output   : 41
+Unused Output     : 41
+Floating Output   : 41
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|done_input_s1_agent_rsp_fifo
+Input             : 160
+Constant Input    : 39
+Unused Input      : 0
+Floating Input    : 39
+Output            : 119
+Constant Output   : 39
+Unused Output     : 39
+Floating Output   : 39
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|done_input_s1_agent|uncompressor
+Input             : 45
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 43
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|done_input_s1_agent
+Input             : 317
+Constant Input    : 39
+Unused Input      : 41
+Floating Input    : 39
+Output            : 337
+Constant Output   : 39
+Unused Output     : 39
+Floating Output   : 39
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|ready_output_s1_agent_rdata_fifo
+Input             : 79
+Constant Input    : 41
+Unused Input      : 0
+Floating Input    : 41
+Output            : 36
+Constant Output   : 41
+Unused Output     : 41
+Floating Output   : 41
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|ready_output_s1_agent_rsp_fifo
+Input             : 160
+Constant Input    : 39
+Unused Input      : 0
+Floating Input    : 39
+Output            : 119
+Constant Output   : 39
+Unused Output     : 39
+Floating Output   : 39
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|ready_output_s1_agent|uncompressor
+Input             : 45
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 43
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|ready_output_s1_agent
+Input             : 317
+Constant Input    : 39
+Unused Input      : 41
+Floating Input    : 39
+Output            : 337
+Constant Output   : 39
+Unused Output     : 39
+Floating Output   : 39
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|pushbutton_s1_agent_rdata_fifo
+Input             : 79
+Constant Input    : 41
+Unused Input      : 0
+Floating Input    : 41
+Output            : 36
+Constant Output   : 41
+Unused Output     : 41
+Floating Output   : 41
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|pushbutton_s1_agent_rsp_fifo
+Input             : 160
+Constant Input    : 39
+Unused Input      : 0
+Floating Input    : 39
+Output            : 119
+Constant Output   : 39
+Unused Output     : 39
+Floating Output   : 39
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|pushbutton_s1_agent|uncompressor
+Input             : 45
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 43
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|pushbutton_s1_agent
+Input             : 317
+Constant Input    : 39
+Unused Input      : 41
+Floating Input    : 39
+Output            : 337
+Constant Output   : 39
+Unused Output     : 39
+Floating Output   : 39
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|jtag_uart_0_avalon_jtag_slave_agent_rdata_fifo
+Input             : 79
+Constant Input    : 41
+Unused Input      : 0
+Floating Input    : 41
+Output            : 36
+Constant Output   : 41
+Unused Output     : 41
+Floating Output   : 41
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo
+Input             : 160
+Constant Input    : 39
+Unused Input      : 0
+Floating Input    : 39
+Output            : 119
+Constant Output   : 39
+Unused Output     : 39
+Floating Output   : 39
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|jtag_uart_0_avalon_jtag_slave_agent|uncompressor
+Input             : 45
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 43
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|jtag_uart_0_avalon_jtag_slave_agent
+Input             : 317
+Constant Input    : 39
+Unused Input      : 41
+Floating Input    : 39
+Output            : 337
+Constant Output   : 39
+Unused Output     : 39
+Floating Output   : 39
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|hps_0_h2f_lw_axi_master_agent|align_address_to_size
+Input             : 38
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 23
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|hps_0_h2f_lw_axi_master_agent
+Input             : 421
+Constant Input    : 87
+Unused Input      : 191
+Floating Input    : 87
+Output            : 302
+Constant Output   : 87
+Unused Output     : 87
+Floating Output   : 87
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|done_input_s1_translator
+Input             : 104
+Constant Input    : 6
+Unused Input      : 22
+Floating Input    : 6
+Output            : 36
+Constant Output   : 6
+Unused Output     : 6
+Floating Output   : 6
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|ready_output_s1_translator
+Input             : 104
+Constant Input    : 6
+Unused Input      : 22
+Floating Input    : 6
+Output            : 70
+Constant Output   : 6
+Unused Output     : 6
+Floating Output   : 6
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|pushbutton_s1_translator
+Input             : 104
+Constant Input    : 6
+Unused Input      : 22
+Floating Input    : 6
+Output            : 70
+Constant Output   : 6
+Unused Output     : 6
+Floating Output   : 6
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1|jtag_uart_0_avalon_jtag_slave_translator
+Input             : 104
+Constant Input    : 5
+Unused Input      : 23
+Floating Input    : 5
+Output            : 70
+Constant Output   : 5
+Unused Output     : 5
+Floating Output   : 5
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_1
+Input             : 288
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 176
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|avalon_st_adapter_001|error_adapter_0
+Input             : 38
+Constant Input    : 1
+Unused Input      : 2
+Floating Input    : 1
+Output            : 37
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|avalon_st_adapter_001
+Input             : 38
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 37
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|avalon_st_adapter|error_adapter_0
+Input             : 22
+Constant Input    : 1
+Unused Input      : 2
+Floating Input    : 1
+Output            : 21
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|avalon_st_adapter
+Input             : 22
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 21
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|onchip_memory2_0_s1_to_hps_0_h2f_axi_master_rd_rsp_width_adapter|uncompressor
+Input             : 60
+Constant Input    : 4
+Unused Input      : 0
+Floating Input    : 4
+Output            : 45
+Constant Output   : 4
+Unused Output     : 4
+Floating Output   : 4
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|onchip_memory2_0_s1_to_hps_0_h2f_axi_master_rd_rsp_width_adapter
+Input             : 139
+Constant Input    : 3
+Unused Input      : 0
+Floating Input    : 3
+Output            : 242
+Constant Output   : 3
+Unused Output     : 3
+Floating Output   : 3
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|onchip_memory2_0_s1_to_hps_0_h2f_axi_master_wr_rsp_width_adapter|uncompressor
+Input             : 60
+Constant Input    : 4
+Unused Input      : 0
+Floating Input    : 4
+Output            : 45
+Constant Output   : 4
+Unused Output     : 4
+Floating Output   : 4
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|onchip_memory2_0_s1_to_hps_0_h2f_axi_master_wr_rsp_width_adapter
+Input             : 139
+Constant Input    : 3
+Unused Input      : 0
+Floating Input    : 3
+Output            : 242
+Constant Output   : 3
+Unused Output     : 3
+Floating Output   : 3
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|sdram_s1_to_hps_0_h2f_axi_master_rd_rsp_width_adapter|uncompressor
+Input             : 60
+Constant Input    : 4
+Unused Input      : 0
+Floating Input    : 4
+Output            : 45
+Constant Output   : 4
+Unused Output     : 4
+Floating Output   : 4
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|sdram_s1_to_hps_0_h2f_axi_master_rd_rsp_width_adapter
+Input             : 121
+Constant Input    : 3
+Unused Input      : 0
+Floating Input    : 3
+Output            : 242
+Constant Output   : 3
+Unused Output     : 3
+Floating Output   : 3
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|sdram_s1_to_hps_0_h2f_axi_master_wr_rsp_width_adapter|uncompressor
+Input             : 60
+Constant Input    : 4
+Unused Input      : 0
+Floating Input    : 4
+Output            : 45
+Constant Output   : 4
+Unused Output     : 4
+Floating Output   : 4
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|sdram_s1_to_hps_0_h2f_axi_master_wr_rsp_width_adapter
+Input             : 121
+Constant Input    : 3
+Unused Input      : 0
+Floating Input    : 3
+Output            : 242
+Constant Output   : 3
+Unused Output     : 3
+Floating Output   : 3
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|hps_0_h2f_axi_master_rd_to_onchip_memory2_0_s1_cmd_width_adapter|check_and_align_address_to_size
+Input             : 47
+Constant Input    : 10
+Unused Input      : 2
+Floating Input    : 10
+Output            : 36
+Constant Output   : 10
+Unused Output     : 10
+Floating Output   : 10
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|hps_0_h2f_axi_master_rd_to_onchip_memory2_0_s1_cmd_width_adapter
+Input             : 247
+Constant Input    : 3
+Unused Input      : 4
+Floating Input    : 3
+Output            : 134
+Constant Output   : 3
+Unused Output     : 3
+Floating Output   : 3
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|hps_0_h2f_axi_master_rd_to_sdram_s1_cmd_width_adapter|check_and_align_address_to_size
+Input             : 47
+Constant Input    : 10
+Unused Input      : 2
+Floating Input    : 10
+Output            : 36
+Constant Output   : 10
+Unused Output     : 10
+Floating Output   : 10
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|hps_0_h2f_axi_master_rd_to_sdram_s1_cmd_width_adapter
+Input             : 247
+Constant Input    : 3
+Unused Input      : 4
+Floating Input    : 3
+Output            : 116
+Constant Output   : 3
+Unused Output     : 3
+Floating Output   : 3
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|hps_0_h2f_axi_master_wr_to_onchip_memory2_0_s1_cmd_width_adapter|check_and_align_address_to_size
+Input             : 47
+Constant Input    : 10
+Unused Input      : 2
+Floating Input    : 10
+Output            : 36
+Constant Output   : 10
+Unused Output     : 10
+Floating Output   : 10
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|hps_0_h2f_axi_master_wr_to_onchip_memory2_0_s1_cmd_width_adapter
+Input             : 247
+Constant Input    : 3
+Unused Input      : 4
+Floating Input    : 3
+Output            : 134
+Constant Output   : 3
+Unused Output     : 3
+Floating Output   : 3
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|hps_0_h2f_axi_master_wr_to_sdram_s1_cmd_width_adapter|check_and_align_address_to_size
+Input             : 47
+Constant Input    : 10
+Unused Input      : 2
+Floating Input    : 10
+Output            : 36
+Constant Output   : 10
+Unused Output     : 10
+Floating Output   : 10
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|hps_0_h2f_axi_master_wr_to_sdram_s1_cmd_width_adapter
+Input             : 247
+Constant Input    : 3
+Unused Input      : 4
+Floating Input    : 3
+Output            : 116
+Constant Output   : 3
+Unused Output     : 3
+Floating Output   : 3
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|rsp_mux_002
+Input             : 118
+Constant Input    : 0
+Unused Input      : 2
+Floating Input    : 0
+Output            : 116
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|rsp_mux_001|arb|adder
+Input             : 8
+Constant Input    : 4
+Unused Input      : 0
+Floating Input    : 4
+Output            : 4
+Constant Output   : 4
+Unused Output     : 4
+Floating Output   : 4
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|rsp_mux_001|arb
+Input             : 6
+Constant Input    : 0
+Unused Input      : 4
+Floating Input    : 0
+Output            : 2
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|rsp_mux_001
+Input             : 485
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 243
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|rsp_mux|arb|adder
+Input             : 8
+Constant Input    : 4
+Unused Input      : 0
+Floating Input    : 4
+Output            : 4
+Constant Output   : 4
+Unused Output     : 4
+Floating Output   : 4
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|rsp_mux|arb
+Input             : 6
+Constant Input    : 0
+Unused Input      : 4
+Floating Input    : 0
+Output            : 2
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|rsp_mux
+Input             : 485
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 243
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|rsp_demux_001
+Input             : 137
+Constant Input    : 4
+Unused Input      : 2
+Floating Input    : 4
+Output            : 267
+Constant Output   : 4
+Unused Output     : 4
+Floating Output   : 4
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|rsp_demux
+Input             : 120
+Constant Input    : 9
+Unused Input      : 2
+Floating Input    : 9
+Output            : 346
+Constant Output   : 9
+Unused Output     : 9
+Floating Output   : 9
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|cmd_mux_001|arb|adder
+Input             : 8
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 4
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|cmd_mux_001|arb
+Input             : 6
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 2
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|cmd_mux_001
+Input             : 269
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 135
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|cmd_mux|arb|adder
+Input             : 12
+Constant Input    : 3
+Unused Input      : 0
+Floating Input    : 3
+Output            : 6
+Constant Output   : 3
+Unused Output     : 3
+Floating Output   : 3
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|cmd_mux|arb
+Input             : 7
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 3
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|cmd_mux
+Input             : 348
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 118
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|cmd_demux_002
+Input             : 118
+Constant Input    : 1
+Unused Input      : 2
+Floating Input    : 1
+Output            : 116
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|cmd_demux_001
+Input             : 247
+Constant Input    : 4
+Unused Input      : 3
+Floating Input    : 4
+Output            : 483
+Constant Output   : 4
+Unused Output     : 4
+Floating Output   : 4
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|cmd_demux
+Input             : 247
+Constant Input    : 4
+Unused Input      : 3
+Floating Input    : 4
+Output            : 483
+Constant Output   : 4
+Unused Output     : 4
+Floating Output   : 4
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|onchip_memory2_0_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|dc_sub|subtract
+Input             : 21
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 10
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|onchip_memory2_0_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|dc_sub
+Input             : 20
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 10
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|onchip_memory2_0_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|db_sub|subtract
+Input             : 21
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 10
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|onchip_memory2_0_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|db_sub
+Input             : 20
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 10
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|onchip_memory2_0_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|da_sub|subtract
+Input             : 21
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 10
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|onchip_memory2_0_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|da_sub
+Input             : 20
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 10
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|onchip_memory2_0_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|bc_sub|subtract
+Input             : 21
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 10
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|onchip_memory2_0_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|bc_sub
+Input             : 20
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 10
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|onchip_memory2_0_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|ac_sub|subtract
+Input             : 21
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 10
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|onchip_memory2_0_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|ac_sub
+Input             : 20
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 10
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|onchip_memory2_0_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|ab_sub|subtract
+Input             : 21
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 10
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|onchip_memory2_0_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|ab_sub
+Input             : 20
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 10
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|onchip_memory2_0_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min
+Input             : 39
+Constant Input    : 0
+Unused Input      : 2
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|onchip_memory2_0_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_burstwrap_increment
+Input             : 9
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|onchip_memory2_0_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|align_address_to_size
+Input             : 40
+Constant Input    : 5
+Unused Input      : 0
+Floating Input    : 5
+Output            : 34
+Constant Output   : 5
+Unused Output     : 5
+Floating Output   : 5
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|onchip_memory2_0_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter
+Input             : 136
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 134
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|onchip_memory2_0_s1_burst_adapter
+Input             : 136
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 134
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|sdram_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|dc_sub|subtract
+Input             : 21
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 10
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|sdram_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|dc_sub
+Input             : 20
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 10
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|sdram_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|db_sub|subtract
+Input             : 21
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 10
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|sdram_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|db_sub
+Input             : 20
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 10
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|sdram_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|da_sub|subtract
+Input             : 21
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 10
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|sdram_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|da_sub
+Input             : 20
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 10
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|sdram_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|bc_sub|subtract
+Input             : 21
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 10
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|sdram_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|bc_sub
+Input             : 20
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 10
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|sdram_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|ac_sub|subtract
+Input             : 21
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 10
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|sdram_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|ac_sub
+Input             : 20
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 10
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|sdram_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|ab_sub|subtract
+Input             : 21
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 10
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|sdram_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min|ab_sub
+Input             : 20
+Constant Input    : 2
+Unused Input      : 0
+Floating Input    : 2
+Output            : 10
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|sdram_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_min
+Input             : 39
+Constant Input    : 0
+Unused Input      : 2
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|sdram_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|the_burstwrap_increment
+Input             : 9
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 9
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|sdram_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter|align_address_to_size
+Input             : 40
+Constant Input    : 5
+Unused Input      : 0
+Floating Input    : 5
+Output            : 33
+Constant Output   : 5
+Unused Output     : 5
+Floating Output   : 5
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|sdram_s1_burst_adapter|altera_merlin_burst_adapter_13_1.burst_adapter
+Input             : 118
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 116
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|sdram_s1_burst_adapter
+Input             : 118
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 116
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|hps_0_h2f_axi_master_rd_limiter
+Input             : 486
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 486
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|hps_0_h2f_axi_master_wr_limiter
+Input             : 486
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 486
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|router_004|the_default_decode
+Input             : 0
+Constant Input    : 6
+Unused Input      : 0
+Floating Input    : 6
+Output            : 6
+Constant Output   : 6
+Unused Output     : 6
+Floating Output   : 6
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|router_004
+Input             : 133
+Constant Input    : 0
+Unused Input      : 2
+Floating Input    : 0
+Output            : 134
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|router_003|the_default_decode
+Input             : 0
+Constant Input    : 6
+Unused Input      : 0
+Floating Input    : 6
+Output            : 6
+Constant Output   : 6
+Unused Output     : 6
+Floating Output   : 6
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|router_003
+Input             : 115
+Constant Input    : 0
+Unused Input      : 2
+Floating Input    : 0
+Output            : 116
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|router_002|the_default_decode
+Input             : 0
+Constant Input    : 4
+Unused Input      : 0
+Floating Input    : 4
+Output            : 4
+Constant Output   : 4
+Unused Output     : 4
+Floating Output   : 4
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|router_002
+Input             : 115
+Constant Input    : 4
+Unused Input      : 3
+Floating Input    : 4
+Output            : 116
+Constant Output   : 4
+Unused Output     : 4
+Floating Output   : 4
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|router_001|the_default_decode
+Input             : 0
+Constant Input    : 4
+Unused Input      : 0
+Floating Input    : 4
+Output            : 4
+Constant Output   : 4
+Unused Output     : 4
+Floating Output   : 4
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|router_001
+Input             : 241
+Constant Input    : 0
+Unused Input      : 3
+Floating Input    : 0
+Output            : 242
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|router|the_default_decode
+Input             : 0
+Constant Input    : 4
+Unused Input      : 0
+Floating Input    : 4
+Output            : 4
+Constant Output   : 4
+Unused Output     : 4
+Floating Output   : 4
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|router
+Input             : 241
+Constant Input    : 0
+Unused Input      : 3
+Floating Input    : 0
+Output            : 242
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|onchip_memory2_0_s1_agent_rdata_fifo
+Input             : 79
+Constant Input    : 41
+Unused Input      : 0
+Floating Input    : 41
+Output            : 36
+Constant Output   : 41
+Unused Output     : 41
+Floating Output   : 41
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|onchip_memory2_0_s1_agent_rsp_fifo
+Input             : 173
+Constant Input    : 39
+Unused Input      : 0
+Floating Input    : 39
+Output            : 132
+Constant Output   : 39
+Unused Output     : 39
+Floating Output   : 39
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|onchip_memory2_0_s1_agent|uncompressor
+Input             : 60
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 58
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|onchip_memory2_0_s1_agent
+Input             : 342
+Constant Input    : 39
+Unused Input      : 40
+Floating Input    : 39
+Output            : 374
+Constant Output   : 39
+Unused Output     : 39
+Floating Output   : 39
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|sdram_s1_agent_rdata_fifo
+Input             : 63
+Constant Input    : 41
+Unused Input      : 0
+Floating Input    : 41
+Output            : 20
+Constant Output   : 41
+Unused Output     : 41
+Floating Output   : 41
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|sdram_s1_agent_rsp_fifo
+Input             : 155
+Constant Input    : 39
+Unused Input      : 0
+Floating Input    : 39
+Output            : 114
+Constant Output   : 39
+Unused Output     : 39
+Floating Output   : 39
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|sdram_s1_agent|uncompressor
+Input             : 60
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 58
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|sdram_s1_agent
+Input             : 274
+Constant Input    : 22
+Unused Input      : 24
+Floating Input    : 22
+Output            : 303
+Constant Output   : 22
+Unused Output     : 22
+Floating Output   : 22
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|sdram_master_avalon_interface_0_avalon_master_agent
+Input             : 174
+Constant Input    : 56
+Unused Input      : 97
+Floating Input    : 56
+Output            : 131
+Constant Output   : 56
+Unused Output     : 56
+Floating Output   : 56
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|hps_0_h2f_axi_master_agent|align_address_to_size
+Input             : 51
+Constant Input    : 2
+Unused Input      : 1
+Floating Input    : 2
+Output            : 36
+Constant Output   : 2
+Unused Output     : 2
+Floating Output   : 2
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|hps_0_h2f_axi_master_agent
+Input             : 787
+Constant Input    : 195
+Unused Input      : 335
+Floating Input    : 195
+Output            : 640
+Constant Output   : 195
+Unused Output     : 195
+Floating Output   : 195
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|onchip_memory2_0_s1_translator
+Input             : 115
+Constant Input    : 7
+Unused Input      : 20
+Floating Input    : 7
+Output            : 85
+Constant Output   : 7
+Unused Output     : 7
+Floating Output   : 7
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|sdram_s1_translator
+Input             : 80
+Constant Input    : 4
+Unused Input      : 7
+Floating Input    : 4
+Output            : 64
+Constant Output   : 4
+Unused Output     : 4
+Floating Output   : 4
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0|sdram_master_avalon_interface_0_avalon_master_translator
+Input             : 82
+Constant Input    : 11
+Unused Input      : 3
+Floating Input    : 11
+Output            : 74
+Constant Output   : 11
+Unused Output     : 11
+Floating Output   : 11
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|mm_interconnect_0
+Input             : 388
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 277
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|sys_clk|reset_from_locked
+Input             : 1
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|sys_clk|sys_pll
+Input             : 2
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 3
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|sys_clk
+Input             : 2
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 3
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|sdram_master_avalon_interface_0
+Input             : 21
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 86
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|ready_output
+Input             : 38
+Constant Input    : 31
+Unused Input      : 31
+Floating Input    : 31
+Output            : 33
+Constant Output   : 31
+Unused Output     : 31
+Floating Output   : 31
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|pushbutton
+Input             : 42
+Constant Input    : 0
+Unused Input      : 28
+Floating Input    : 0
+Output            : 33
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|onchip_memory2_0|the_altsyncram|auto_generated
+Input             : 51
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 32
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|onchip_memory2_0
+Input             : 54
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 32
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|jtag_uart_0|the_lab3_p2_qsys_jtag_uart_0_scfifo_r|rfifo|auto_generated|dpfifo|wr_ptr
+Input             : 4
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 6
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|jtag_uart_0|the_lab3_p2_qsys_jtag_uart_0_scfifo_r|rfifo|auto_generated|dpfifo|rd_ptr_count
+Input             : 4
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 6
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|jtag_uart_0|the_lab3_p2_qsys_jtag_uart_0_scfifo_r|rfifo|auto_generated|dpfifo|FIFOram|altsyncram1
+Input             : 24
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|jtag_uart_0|the_lab3_p2_qsys_jtag_uart_0_scfifo_r|rfifo|auto_generated|dpfifo|FIFOram
+Input             : 24
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|jtag_uart_0|the_lab3_p2_qsys_jtag_uart_0_scfifo_r|rfifo|auto_generated|dpfifo|fifo_state|count_usedw
+Input             : 5
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 6
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|jtag_uart_0|the_lab3_p2_qsys_jtag_uart_0_scfifo_r|rfifo|auto_generated|dpfifo|fifo_state
+Input             : 5
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|jtag_uart_0|the_lab3_p2_qsys_jtag_uart_0_scfifo_r|rfifo|auto_generated|dpfifo
+Input             : 13
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 16
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|jtag_uart_0|the_lab3_p2_qsys_jtag_uart_0_scfifo_r|rfifo|auto_generated
+Input             : 12
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 16
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|jtag_uart_0|the_lab3_p2_qsys_jtag_uart_0_scfifo_r
+Input             : 13
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 16
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|jtag_uart_0|the_lab3_p2_qsys_jtag_uart_0_scfifo_w|wfifo|auto_generated|dpfifo|wr_ptr
+Input             : 4
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 6
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|jtag_uart_0|the_lab3_p2_qsys_jtag_uart_0_scfifo_w|wfifo|auto_generated|dpfifo|rd_ptr_count
+Input             : 4
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 6
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|jtag_uart_0|the_lab3_p2_qsys_jtag_uart_0_scfifo_w|wfifo|auto_generated|dpfifo|FIFOram|altsyncram1
+Input             : 24
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|jtag_uart_0|the_lab3_p2_qsys_jtag_uart_0_scfifo_w|wfifo|auto_generated|dpfifo|FIFOram
+Input             : 24
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|jtag_uart_0|the_lab3_p2_qsys_jtag_uart_0_scfifo_w|wfifo|auto_generated|dpfifo|fifo_state|count_usedw
+Input             : 5
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 6
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|jtag_uart_0|the_lab3_p2_qsys_jtag_uart_0_scfifo_w|wfifo|auto_generated|dpfifo|fifo_state
+Input             : 5
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 8
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|jtag_uart_0|the_lab3_p2_qsys_jtag_uart_0_scfifo_w|wfifo|auto_generated|dpfifo
+Input             : 13
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 16
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|jtag_uart_0|the_lab3_p2_qsys_jtag_uart_0_scfifo_w|wfifo|auto_generated
+Input             : 12
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 16
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|jtag_uart_0|the_lab3_p2_qsys_jtag_uart_0_scfifo_w
+Input             : 12
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 16
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|jtag_uart_0
+Input             : 38
+Constant Input    : 10
+Unused Input      : 23
+Floating Input    : 10
+Output            : 34
+Constant Output   : 10
+Unused Output     : 10
+Floating Output   : 10
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|dll
+Input             : 2
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 7
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|oct
+Input             : 1
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 32
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|c0
+Input             : 228
+Constant Input    : 173
+Unused Input      : 8
+Floating Input    : 173
+Output            : 280
+Constant Output   : 173
+Unused Output     : 173
+Floating Output   : 173
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|seq
+Input             : 0
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 0
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads|dq_ddio[0].ubidir_dq_dqs|altdq_dqs2_inst
+Input             : 135
+Constant Input    : 1
+Unused Input      : 3
+Floating Input    : 1
+Output            : 36
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 10
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads|dq_ddio[0].ubidir_dq_dqs
+Input             : 135
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 36
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 10
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads|uaddr_cmd_pads|clock_gen[0].uclk_generator
+Input             : 1
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 2
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads|uaddr_cmd_pads|clock_gen[0].umem_ck_pad|auto_generated
+Input             : 3
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads|uaddr_cmd_pads|ureset_n_pad
+Input             : 7
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 1
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads|uaddr_cmd_pads|ucmd_pad
+Input             : 37
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 6
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads|uaddr_cmd_pads|ubank_pad
+Input             : 19
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 3
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads|uaddr_cmd_pads|uaddress_pad
+Input             : 79
+Constant Input    : 1
+Unused Input      : 0
+Floating Input    : 1
+Output            : 13
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads|uaddr_cmd_pads|address_gen[22].acv_ac_ldc
+Input             : 10
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads|uaddr_cmd_pads|address_gen[21].acv_ac_ldc
+Input             : 10
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads|uaddr_cmd_pads|address_gen[20].acv_ac_ldc
+Input             : 10
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads|uaddr_cmd_pads|address_gen[19].acv_ac_ldc
+Input             : 10
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads|uaddr_cmd_pads|address_gen[18].acv_ac_ldc
+Input             : 10
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads|uaddr_cmd_pads|address_gen[17].acv_ac_ldc
+Input             : 10
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads|uaddr_cmd_pads|address_gen[16].acv_ac_ldc
+Input             : 10
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads|uaddr_cmd_pads|address_gen[15].acv_ac_ldc
+Input             : 10
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads|uaddr_cmd_pads|address_gen[14].acv_ac_ldc
+Input             : 10
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads|uaddr_cmd_pads|address_gen[13].acv_ac_ldc
+Input             : 10
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads|uaddr_cmd_pads|address_gen[12].acv_ac_ldc
+Input             : 10
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads|uaddr_cmd_pads|address_gen[11].acv_ac_ldc
+Input             : 10
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads|uaddr_cmd_pads|address_gen[10].acv_ac_ldc
+Input             : 10
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads|uaddr_cmd_pads|address_gen[9].acv_ac_ldc
+Input             : 10
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads|uaddr_cmd_pads|address_gen[8].acv_ac_ldc
+Input             : 10
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads|uaddr_cmd_pads|address_gen[7].acv_ac_ldc
+Input             : 10
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads|uaddr_cmd_pads|address_gen[6].acv_ac_ldc
+Input             : 10
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads|uaddr_cmd_pads|address_gen[5].acv_ac_ldc
+Input             : 10
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads|uaddr_cmd_pads|address_gen[4].acv_ac_ldc
+Input             : 10
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads|uaddr_cmd_pads|address_gen[3].acv_ac_ldc
+Input             : 10
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads|uaddr_cmd_pads|address_gen[2].acv_ac_ldc
+Input             : 10
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads|uaddr_cmd_pads|address_gen[1].acv_ac_ldc
+Input             : 10
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads|uaddr_cmd_pads|address_gen[0].acv_ac_ldc
+Input             : 10
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 1
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads|uaddr_cmd_pads
+Input             : 110
+Constant Input    : 0
+Unused Input      : 5
+Floating Input    : 0
+Output            : 25
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uio_pads
+Input             : 600
+Constant Input    : 157
+Unused Input      : 340
+Floating Input    : 157
+Output            : 212
+Constant Output   : 157
+Unused Output     : 157
+Floating Output   : 157
+Bidir             : 10
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|memphy_ldc
+Input             : 10
+Constant Input    : 0
+Unused Input      : 1
+Floating Input    : 0
+Output            : 4
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy
+Input             : 942
+Constant Input    : 1
+Unused Input      : 2
+Floating Input    : 1
+Output            : 358
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 10
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|p0
+Input             : 878
+Constant Input    : 545
+Unused Input      : 0
+Floating Input    : 545
+Output            : 125
+Constant Output   : 545
+Unused Output     : 545
+Floating Output   : 545
+Bidir             : 10
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst|pll
+Input             : 2
+Constant Input    : 1
+Unused Input      : 2
+Floating Input    : 1
+Output            : 12
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border|hps_sdram_inst
+Input             : 1
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 26
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 10
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io|border
+Input             : 0
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 0
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|hps_io
+Input             : 1
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 26
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 10
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0|fpga_interfaces
+Input             : 507
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 529
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|hps_0
+Input             : 296
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 465
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 10
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|done_input
+Input             : 5
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 32
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|sdram|the_lab3_p2_qsys_SDRAM_input_efifo_module
+Input             : 48
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 48
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0|sdram
+Input             : 48
+Constant Input    : 1
+Unused Input      : 1
+Floating Input    : 1
+Output            : 40
+Constant Output   : 1
+Unused Output     : 1
+Floating Output   : 1
+Bidir             : 16
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : u0
+Input             : 9
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 83
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 26
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : h5
+Input             : 4
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 7
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : h4
+Input             : 4
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 7
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : h3
+Input             : 4
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 7
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : h2
+Input             : 4
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 7
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : h1
+Input             : 4
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 7
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
+
+Hierarchy         : h0
+Input             : 4
+Constant Input    : 0
+Unused Input      : 0
+Floating Input    : 0
+Output            : 7
+Constant Output   : 0
+Unused Output     : 0
+Floating Output   : 0
+Bidir             : 0
+Constant Bidir    : 0
+Unused Bidir      : 0
+Input only Bidir  : 0
+Output only Bidir : 0
++--------------------------------------------------------------------------------+
+

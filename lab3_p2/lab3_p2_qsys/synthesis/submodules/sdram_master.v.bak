@@ -1,0 +1,189 @@
+module sdram_master(
+input						clk,
+input						waitrequest,
+input						readdatavalid,
+input 		[15:0]	readdata,
+input						reset_n,
+input 					ready,
+output reg 				done = 0,
+output reg 				read_n = 1,
+output reg				write_n = 1,
+output reg				chipselect = 1,
+output reg 	[31:0]	address = BASE_ADDR,
+output reg 	[1:0]		byteenable = 2'b11,
+output reg	[15:0]	writedata
+);
+parameter S0 = 0;								// reset/ready/wait state
+parameter S1 = 1; 							// read state
+parameter S2 = 2; 							// write state
+parameter BASE_ADDR = 32'h0000_0000;
+//****************************************
+reg [1:0] 	State = S0;
+reg [1:0]	Next_state = S0;
+reg [3:0] 	R_count;
+reg [3:0] 	Next_R_count;
+reg [1:0]	W_count;
+reg [1:0] 	Next_W_count;
+//****************************************
+reg 			Next_R_n;
+reg 			Next_W_n;
+reg [31:0] 	Next_addr = BASE_ADDR;
+reg [15:0]	Next_WD;
+reg [15:0]	Buffer;
+reg [15:0]	Next_Buff;
+reg [15:0]	Max = 0;
+reg [15:0]	Min = 16'hFFFF; 
+reg [15:0]	Next_Max = 0;
+reg [15:0]	Next_Min = 16'hFFFF; 
+//************************************************************************************************************************
+always @ (posedge clk) begin
+		chipselect <= 1;
+		byteenable <= 2'b11;
+	if(!reset_n) begin
+		State 		<= S0;
+		R_count 		<= 0;
+		W_count 		<= 0;
+		address 		<= BASE_ADDR;
+		Buffer 		<= 0;
+		read_n 		<= 1;
+		write_n 		<= 1;
+		writedata 	<= 0;
+		Max 			<= 0;
+		Min 			<= 16'hFFFF;
+	end // if
+	else begin
+		State 		<= Next_state;
+		R_count 		<= Next_R_count;
+		W_count 		<= Next_W_count;
+		address 		<= Next_addr;
+		Buffer 		<= Next_Buff;
+		read_n 		<= Next_R_n;
+		write_n 		<= Next_W_n;
+		writedata 	<= Next_WD;
+		Max 			<= Next_Max;
+		Min 			<= Next_Min;
+	end
+end // *********************************************************************************************** always update current regs 
+// ***************************************************************************************************
+always @ (*) begin
+	case (State)
+		S0: begin 
+			if(ready)				begin	Next_state = S1; end
+			else 						begin	Next_state = S0; end
+		end // ****** S0
+		S1: begin 
+			if(R_count < 'd9) 	begin	Next_state = S1; end
+			else 						begin	Next_state = S2; end
+		end // ****** S1 
+		S2: begin 
+			if(W_count < 'd1) 	begin	Next_state = S2; end
+			else 						begin	Next_state = S0; end
+		end // ****** S2 
+		default:						begin	Next_state = S0; end
+	endcase
+end// ********************************************************************************************** always find next state 
+
+always @ (*) begin
+/*
+	if (State == S1 && (!waitrequest) && readdatavalid) 	
+							begin	Next_R_count <= R_count + 4'd1;	end
+	else if (R_count > 'd9) 
+							begin Next_R_count <= 0;					end
+	else 					begin	Next_R_count <= R_count;			end	
+*/
+	case (State)
+		S1: begin	
+			if ((!waitrequest) && readdatavalid) 	
+							begin	Next_R_count = R_count + 4'd1;	end
+			else 			begin Next_R_count = R_count;			end
+		end // ****** S1 
+		default:			begin	Next_R_count = 0;	end
+	endcase
+
+
+end// ********************************************************************************************** always find next read count
+
+always @ (*) begin
+/*	if (State == S2 && (!waitrequest)) 	
+							begin	Next_W_count <= W_count + 4'd1;	end
+	else if (W_count > 'd1) 
+							begin Next_W_count <= 0;					end
+	else 					begin	Next_W_count <= W_count;			end
+*/
+	case (State)
+		S2: begin	
+			if (!waitrequest) 	
+							begin	Next_W_count = W_count + 2'd1;	end
+			else 			begin	Next_W_count = W_count;			end
+		end // ****** S2 
+		default:			begin	Next_W_count = 0;	end
+	endcase
+	
+end// ********************************************************************************************** always find next write count
+
+always @ (*) begin
+	if (W_count > 'd1) 	begin done = 1'b1; end
+	else 						begin	done = 1'b0; end	
+end// ********************************************************************************************** always done 
+
+// *******************************************************************************************************************************
+// *******************************************************************************************************************************
+
+always @ (*) begin
+/*
+	if (!waitrequest) 								begin	Next_addr = address + 32'd1;		end
+	else if ((State == S1) && (R_count == 0))	begin Next_addr = BASE_ADDR;				end
+	else if ((State == S2) && (W_count == 0))	begin Next_addr = BASE_ADDR + 32'd1;	end
+	else 													begin	Next_addr = address;		end
+	*/
+	
+		case (State)
+		S1: begin
+				if (!waitrequest) 		begin	Next_addr = address + 32'd1;		end
+				else if (R_count == 0)	begin Next_addr = BASE_ADDR;				end
+				else 							begin Next_addr = address;					end
+		end// ******** s1
+		S2: begin	
+				if (!waitrequest) 		begin	Next_addr = address + 32'd1;		end
+				else if (W_count == 0)	begin Next_addr = BASE_ADDR + 32'd1;	end
+				else 							begin Next_addr = address;					end
+		end // ****** S2 
+		default:								begin	Next_addr = BASE_ADDR;				end
+	endcase
+end// ********************************************************************************************** always next addr 
+
+always @ (*) begin
+	if ((!waitrequest) && readdatavalid && (State == S1)) 
+							begin	Next_Buff = readdata; 	end
+	else 					begin Next_Buff = Buffer; 		end
+end// ********************************************************************************************** always next buffer 
+
+always @ (*) begin
+	if (State == S1) 	begin	Next_R_n = 0;		end
+	else 					begin	Next_R_n = 1'd1;	end
+end// ********************************************************************************************** always next read_n 
+
+always @ (*) begin
+	if (State == S2) 	begin	Next_W_n = 0;		end
+	else 					begin	Next_W_n = 1'd1;	end
+end// ********************************************************************************************** always next write_n 
+
+always @ (*) begin
+	if 		(W_count == 0)			begin	Next_WD = Min;	end
+	else if 	(W_count == 1) 		begin Next_WD = Max;	end
+	else 									begin	Next_WD = 0;	end
+end// ********************************************************************************************** always next writedata 
+
+always @ (*) begin
+	if ((Buffer < Min) && (State == S1)) 	begin	Next_Min = Buffer;	end
+	else if 	(State == S0) 						begin Next_Min = 16'hFFFF;	end
+	else 												begin	Next_Min = Min;		end
+end// ********************************************************************************************** always next min 
+
+always @ (*) begin
+	if ((Buffer > Max) && (State == S1))	begin	Next_Max = Buffer;		end
+	else if 	(State == S0) 						begin Next_Min = 0;				end
+	else 												begin	Next_Max = Max;			end
+end// ********************************************************************************************** always next min 
+
+endmodule

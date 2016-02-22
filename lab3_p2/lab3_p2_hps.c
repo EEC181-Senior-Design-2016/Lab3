@@ -1,0 +1,147 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
+#define MAX_32 4294967295
+#define BASEADDR 0xC0000000
+
+
+
+int askInput(unsigned long int * val){
+
+
+    char input[12] = "";
+    char dummy[256] = "";
+    int valid_in = 1;
+    int chk_char = 0;
+
+
+    printf("Enter a decimal integer: ");
+    fgets(input, sizeof(input), stdin);
+    fgets(dummy, sizeof(dummy), stdin); // empty leftovers in stdin
+    valid_in = 1;
+    ///////////////////////////////////////////////////
+    if (strlen(input) > 1){
+      for (chk_char = 0; chk_char < strlen(input); chk_char++){
+            
+          if(input[chk_char] == '\n' || input[chk_char] == '\0'){
+            break;
+          }// stop when reached enter char
+      
+
+          if ( !(isdigit(input[chk_char])) ) {
+            printf("ERROR: FOUND NON-NUMERAL CHAR.\n");
+            valid_in = 0;
+            break;
+          }// if not number, return 
+      
+        }// for check for any non-numerial chars
+    }else{
+          printf("ERROR: NO INPUT.\n");
+          valid_in = 0;
+    }// else
+    
+   
+    
+    if (valid_in){
+      (*val) = strtoul (input, NULL, 10);
+      
+      if ((*val) > MAX_32){
+         printf("ERROR: LARGER THAN 32 BITS.\n");
+	 
+      }// if more than 0xffffffff
+      else{
+         return 1;
+      }
+      
+    }// if valid input
+ 
+    input[0] = '\0';
+    return 0;
+}// askInput
+
+int askContinue(){
+    char input[3] = "";
+    char dummy[256] = "";
+
+    while (1){
+        printf("Continue? (0 = no, 1 = yes): ");
+    
+        fgets(input, sizeof(input), stdin);
+        fgets(dummy, sizeof(dummy), stdin); // empty leftovers in stdin
+        if ( (strlen(input) != 2) || ((atoi(input) != 0) && (atoi(input) != 1)) ) {
+            printf("Not valid. ");
+            input[0] = '\0';
+	    continue;
+        }else if (atoi(input) == 1){
+          return 1;
+        }else{
+          printf("Cya!\n");
+          return 0;
+        }
+    }// while 1 continue asking until valid
+
+    return 0;
+
+}// askContinue
+
+
+
+int main(void)
+{
+  volatile unsigned short int * fpga_sdram = (unsigned short int *) 0xC0000000;
+  volatile unsigned int * done_signal = (unsigned int *) 0xFF200000;
+  volatile unsigned int * ready_signal = (unsigned int *) 0xFF200010;
+
+  unsigned long int val_32b = 0;
+  unsigned long int arr10[10] = {0};
+  int i = 0; 
+  unsigned short int* chip_addr;
+  unsigned int * done;
+  unsigned int * ready;
+  
+  chip_addr = fpga_sdram;
+  ready = ready_signal;
+  done = done_signal;
+  
+  while(1)
+  {
+    while (i < 10){
+	printf("%d = ",i);
+        if (askInput(&val_32b)){
+          arr10[i] = val_32b;
+          i++;
+        }// if value is valid, add to array and increment i
+	
+
+    }// check for a valid input 10 times
+
+    ////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////
+
+    for (i = 0; i<10; i++){
+        *chip_addr = (unsigned short int)(arr10[i]);
+        chip_addr++;
+    }// for
+    
+    *ready = 1;
+    
+    while (*done_signal == 0){
+        
+    }
+    
+    *ready = 0;
+    i = 0;
+    chip_addr = BASEADDR;
+    
+    if(!(askContinue())){
+        return 0;
+    }// ask to continue
+  }// while 1
+ 
+
+  return 0;
+
+}// main
+

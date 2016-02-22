@@ -1,0 +1,24 @@
+# do lab3_p2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim LE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying /apps/Altera/15.0/modelsim_ae/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /apps/Altera/15.0/modelsim_ae/linuxaloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+/home/julam5/Desktop/lab3/lab3_p2 {/home/julam5/Desktop/lab3/lab3_p2/sdram_master.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:08:04 on Feb 03,2016
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/julam5/Desktop/lab3/lab3_p2" /home/julam5/Desktop/lab3/lab3_p2/sdram_master.v 
+# -- Compiling module sdram_master
+# 
+# Top level modules:
+# 	sdram_master
+# End time: 15:08:04 on Feb 03,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 

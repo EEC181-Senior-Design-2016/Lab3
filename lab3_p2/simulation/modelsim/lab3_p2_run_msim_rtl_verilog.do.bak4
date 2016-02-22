@@ -1,0 +1,9 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/Justin/Documents/EEC\ 181\ -\ Senior\ Design/Current\ Lab/lab3/lab3_p2 {C:/Users/Justin/Documents/EEC 181 - Senior Design/Current Lab/lab3/lab3_p2/sdram_master.v}
+

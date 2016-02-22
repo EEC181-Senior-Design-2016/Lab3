@@ -1,0 +1,12 @@
+{ "Info" "0" "" "qar.tcl version #3" {  } {  } 0 0 "qar.tcl version #3" 0 0 "0" 0 0 1455748112174 ""}
+{ "Info" "0" "" "Including '-use_file_set basic' by default" {  } {  } 0 0 "Including '-use_file_set basic' by default" 0 0 "0" 0 0 1455748112355 ""}
+{ "Info" "0" "" "All project revisions will be stored in common archive lab3_p2_tmp_archive.qar" {  } {  } 0 0 "All project revisions will be stored in common archive lab3_p2_tmp_archive.qar" 0 0 "0" 0 0 1455748112356 ""}
+{ "Info" "0" "" "Initializing files for 'lab3_p2' revision" {  } {  } 0 0 "Initializing files for 'lab3_p2' revision" 0 0 "0" 0 0 1455748115894 ""}
+{ "Info" "0" "" "File Set 'Source control' contains:" { { "Info" "0" "" "Project source and settings files" {  } {  } 0 0 "Project source and settings files" 0 0 "0" 0 0 1455748115918 ""} { "Info" "0" "" "Automatically detected source files" {  } {  } 0 0 "Automatically detected source files" 0 0 "0" 0 0 1455748115918 ""}  } {  } 0 0 "File Set 'Source control' contains:" 0 0 "0" 0 0 1455748115918 ""}
+{ "Info" "0" "" "Archive will store files relative to the closest common parent directory" {  } {  } 0 0 "Archive will store files relative to the closest common parent directory" 0 0 "0" 0 0 1455748118315 ""}
+{ "Info" "IPRJ_ARC_TCL_TCL_USING_COMMON_DIR" "/home/julam5/Desktop/lab3/lab3_p2/ " "Using common directory /home/julam5/Desktop/lab3/lab3_p2/" {  } {  } 0 13213 "Using common directory %1!s!" 0 0 "Quartus II" 0 -1 1455748118380 ""}
+{ "Info" "0" "" "----------------------------------------------------------" {  } {  } 0 0 "----------------------------------------------------------" 0 0 "0" 0 0 1455748123083 ""}
+{ "Info" "0" "" "----------------------------------------------------------" {  } {  } 0 0 "----------------------------------------------------------" 0 0 "0" 0 0 1455748123083 ""}
+{ "Info" "0" "" "Generated archive 'lab3_p2_tmp_archive.qar'" {  } {  } 0 0 "Generated archive 'lab3_p2_tmp_archive.qar'" 0 0 "0" 0 0 1455748123083 ""}
+{ "Info" "0" "" "----------------------------------------------------------" {  } {  } 0 0 "----------------------------------------------------------" 0 0 "0" 0 0 1455748123084 ""}
+{ "Info" "0" "" "----------------------------------------------------------" {  } {  } 0 0 "----------------------------------------------------------" 0 0 "0" 0 0 1455748123084 ""}

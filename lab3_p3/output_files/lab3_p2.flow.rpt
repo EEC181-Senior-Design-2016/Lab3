@@ -1,0 +1,434 @@
+Flow report for lab3_p2
+Wed Feb 17 17:10:46 2016
+Quartus II 64-Bit Version 15.0.0 Build 145 04/22/2015 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++---------------------------------+---------------------------------------------+
+; Flow Status                     ; Successful - Wed Feb 17 17:09:43 2016       ;
+; Quartus II 64-Bit Version       ; 15.0.0 Build 145 04/22/2015 SJ Full Version ;
+; Revision Name                   ; lab3_p2                                     ;
+; Top-level Entity Name           ; lab3_p2                                     ;
+; Family                          ; Cyclone V                                   ;
+; Device                          ; 5CSEMA5F31C6                                ;
+; Timing Models                   ; Final                                       ;
+; Logic utilization (in ALMs)     ; 2,068 / 32,070 ( 6 % )                      ;
+; Total registers                 ; 2591                                        ;
+; Total pins                      ; 168 / 457 ( 37 % )                          ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 132,224 / 4,065,280 ( 3 % )                 ;
+; Total DSP Blocks                ; 0 / 87 ( 0 % )                              ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 1 / 6 ( 17 % )                              ;
+; Total DLLs                      ; 1 / 4 ( 25 % )                              ;
++---------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 02/17/2016 17:02:13 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; lab3_p2             ;
++-------------------+---------------------+
+
+
++--------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                               ;
++--------------------------------------------------------------------------------+
+Assignment Name : COMPILER_SIGNATURE_ID
+Value           : 203178706229062.145575732626827
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : ECO_REGENERATE_REPORT
+Value           : On
+Default Value   : Off
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : HPS_ISW_FILE
+Value           : lab3_p2_qsys/synthesis/submodules/sequencer/emif.pre.xml
+Default Value   : --
+Entity Name     : lab3_p2_qsys_hps_0_hps_io_border
+Section Id      : --
+
+Assignment Name : HPS_ISW_FILE
+Value           : lab3_p2_qsys/synthesis/submodules/sequencer/system.pre.h
+Default Value   : --
+Entity Name     : lab3_p2_qsys_hps_0_hps_io_border
+Section Id      : --
+
+Assignment Name : HPS_ISW_FILE
+Value           : lab3_p2_qsys/synthesis/submodules/sequencer/sequencer_auto.pre.h
+Default Value   : --
+Entity Name     : lab3_p2_qsys_hps_0_hps_io_border
+Section Id      : --
+
+Assignment Name : HPS_ISW_FILE
+Value           : lab3_p2_qsys/synthesis/submodules/sequencer/tclrpt.pre.c
+Default Value   : --
+Entity Name     : lab3_p2_qsys_hps_0_hps_io_border
+Section Id      : --
+
+Assignment Name : HPS_ISW_FILE
+Value           : lab3_p2_qsys/synthesis/submodules/sequencer/tclrpt.pre.h
+Default Value   : --
+Entity Name     : lab3_p2_qsys_hps_0_hps_io_border
+Section Id      : --
+
+Assignment Name : HPS_ISW_FILE
+Value           : lab3_p2_qsys/synthesis/submodules/sequencer/alt_types.pre.h
+Default Value   : --
+Entity Name     : lab3_p2_qsys_hps_0_hps_io_border
+Section Id      : --
+
+Assignment Name : HPS_ISW_FILE
+Value           : lab3_p2_qsys/synthesis/submodules/sequencer/sequencer_defines.pre.h
+Default Value   : --
+Entity Name     : lab3_p2_qsys_hps_0_hps_io_border
+Section Id      : --
+
+Assignment Name : HPS_ISW_FILE
+Value           : lab3_p2_qsys/synthesis/submodules/sequencer/sequencer.pre.c
+Default Value   : --
+Entity Name     : lab3_p2_qsys_hps_0_hps_io_border
+Section Id      : --
+
+Assignment Name : HPS_ISW_FILE
+Value           : lab3_p2_qsys/synthesis/submodules/sequencer/sequencer.pre.h
+Default Value   : --
+Entity Name     : lab3_p2_qsys_hps_0_hps_io_border
+Section Id      : --
+
+Assignment Name : HPS_ISW_FILE
+Value           : lab3_p2_qsys/synthesis/submodules/sequencer/sequencer_auto_ac_init.pre.c
+Default Value   : --
+Entity Name     : lab3_p2_qsys_hps_0_hps_io_border
+Section Id      : --
+
+Assignment Name : HPS_ISW_FILE
+Value           : lab3_p2_qsys/synthesis/submodules/sequencer/sdram_io.pre.h
+Default Value   : --
+Entity Name     : lab3_p2_qsys_hps_0_hps_io_border
+Section Id      : --
+
+Assignment Name : HPS_ISW_FILE
+Value           : lab3_p2_qsys/synthesis/submodules/sequencer/sequencer_auto_inst_init.pre.c
+Default Value   : --
+Entity Name     : lab3_p2_qsys_hps_0_hps_io_border
+Section Id      : --
+
+Assignment Name : HPS_ISW_FILE
+Value           : lab3_p2_qsys/synthesis/submodules/hps.pre.xml
+Default Value   : --
+Entity Name     : lab3_p2_qsys_hps_0_hps_io_border
+Section Id      : --
+
+Assignment Name : HPS_PARTITION
+Value           : On
+Default Value   : --
+Entity Name     : lab3_p2_qsys_hps_0_hps_io_border
+Section Id      : --
+
+Assignment Name : MAX_CORE_JUNCTION_TEMP
+Value           : 85
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MIN_CORE_JUNCTION_TEMP
+Value           : 0
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MISC_FILE
+Value           : lab3_p2_qsys/synthesis/../lab3_p2_qsys.cmp
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MISC_FILE
+Value           : lab3_p2_qsys/synthesis/lab3_p2_qsys_hps_0_hps.svd
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MISC_FILE
+Value           : lab3_p2_qsys/synthesis/../../lab3_p2_qsys.qsys
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MISC_FILE
+Value           : lab3_p2_qsys/synthesis/submodules/sequencer/emif.pre.xml
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MISC_FILE
+Value           : lab3_p2_qsys/synthesis/submodules/sequencer/system.pre.h
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MISC_FILE
+Value           : lab3_p2_qsys/synthesis/submodules/sequencer/sequencer_auto.pre.h
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MISC_FILE
+Value           : lab3_p2_qsys/synthesis/submodules/sequencer/tclrpt.pre.c
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MISC_FILE
+Value           : lab3_p2_qsys/synthesis/submodules/sequencer/tclrpt.pre.h
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MISC_FILE
+Value           : lab3_p2_qsys/synthesis/submodules/sequencer/alt_types.pre.h
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MISC_FILE
+Value           : lab3_p2_qsys/synthesis/submodules/sequencer/sequencer_defines.pre.h
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MISC_FILE
+Value           : lab3_p2_qsys/synthesis/submodules/sequencer/sequencer.pre.c
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MISC_FILE
+Value           : lab3_p2_qsys/synthesis/submodules/sequencer/sequencer.pre.h
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MISC_FILE
+Value           : lab3_p2_qsys/synthesis/submodules/sequencer/sequencer_auto_ac_init.pre.c
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MISC_FILE
+Value           : lab3_p2_qsys/synthesis/submodules/sequencer/sdram_io.pre.h
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MISC_FILE
+Value           : lab3_p2_qsys/synthesis/submodules/sequencer/sequencer_auto_inst_init.pre.c
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : MISC_FILE
+Value           : lab3_p2_qsys/synthesis/submodules/hps.pre.xml
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : PARTITION_COLOR
+Value           : 16764057
+Default Value   : --
+Entity Name     : --
+Section Id      : Top
+
+Assignment Name : PARTITION_FITTER_PRESERVATION_LEVEL
+Value           : PLACEMENT_AND_ROUTING
+Default Value   : --
+Entity Name     : --
+Section Id      : Top
+
+Assignment Name : PARTITION_NETLIST_TYPE
+Value           : SOURCE
+Default Value   : --
+Entity Name     : --
+Section Id      : Top
+
+Assignment Name : POWER_BOARD_THERMAL_MODEL
+Value           : None (CONSERVATIVE)
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : POWER_PRESET_COOLING_SOLUTION
+Value           : 23 MM HEAT SINK WITH 200 LFPM AIRFLOW
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : PROJECT_OUTPUT_DIRECTORY
+Value           : output_files
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : SLD_FILE
+Value           : lab3_p2_qsys/synthesis/lab3_p2_qsys.regmap
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : SLD_FILE
+Value           : lab3_p2_qsys/synthesis/lab3_p2_qsys.debuginfo
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : SLD_INFO
+Value           : QSYS_NAME lab3_p2_qsys HAS_SOPCINFO 1 GENERATION_ID 1455756811
+Default Value   : --
+Entity Name     : lab3_p2_qsys
+Section Id      : --
+
+Assignment Name : SOPCINFO_FILE
+Value           : lab3_p2_qsys/synthesis/../../lab3_p2_qsys.sopcinfo
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : SYNTHESIS_ONLY_QIP
+Value           : On
+Default Value   : --
+Entity Name     : --
+Section Id      : --
+
+Assignment Name : USE_DLL_FREQUENCY_FOR_DQS_DELAY_CHAIN
+Value           : On
+Default Value   : Off
+Entity Name     : --
+Section Id      : --
++--------------------------------------------------------------------------------+
+
+
+
++--------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                              ;
++--------------------------------------------------------------------------------+
+Module Name                        : Analysis & Synthesis
+Elapsed Time                       : 00:01:09
+Average Processors Used            : 1.1
+Peak Virtual Memory                : 1431 MB
+Total CPU Time (on all processors) : 00:01:27
+
+Module Name                        : Fitter
+Elapsed Time                       : 00:02:12
+Average Processors Used            : 1.5
+Peak Virtual Memory                : 3219 MB
+Total CPU Time (on all processors) : 00:03:10
+
+Module Name                        : Assembler
+Elapsed Time                       : 00:00:20
+Average Processors Used            : 1.0
+Peak Virtual Memory                : 1132 MB
+Total CPU Time (on all processors) : 00:00:18
+
+Module Name                        : TimeQuest Timing Analyzer
+Elapsed Time                       : 00:00:59
+Average Processors Used            : 1.5
+Peak Virtual Memory                : 2002 MB
+Total CPU Time (on all processors) : 00:01:08
+
+Module Name                        : Total
+Elapsed Time                       : 00:04:40
+Average Processors Used            : --
+Peak Virtual Memory                : --
+Total CPU Time (on all processors) : 00:06:03
++--------------------------------------------------------------------------------+
+
+
+
++--------------------------------------------------------------------------------+
+; Flow OS Summary                                                                ;
++--------------------------------------------------------------------------------+
+Module Name      : Analysis & Synthesis
+Machine Hostname : boom
+OS Name          : Red Hat
+OS Version       : 6
+Processor type   : x86_64
+
+Module Name      : Fitter
+Machine Hostname : boom
+OS Name          : Red Hat
+OS Version       : 6
+Processor type   : x86_64
+
+Module Name      : Assembler
+Machine Hostname : boom
+OS Name          : Red Hat
+OS Version       : 6
+Processor type   : x86_64
+
+Module Name      : TimeQuest Timing Analyzer
+Machine Hostname : boom
+OS Name          : Red Hat
+OS Version       : 6
+Processor type   : x86_64
++--------------------------------------------------------------------------------+
+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off lab3_p2 -c lab3_p2
+quartus_fit --read_settings_files=off --write_settings_files=off lab3_p2 -c lab3_p2
+quartus_asm --read_settings_files=off --write_settings_files=off lab3_p2 -c lab3_p2
+quartus_sta lab3_p2 -c lab3_p2
+
+
+
