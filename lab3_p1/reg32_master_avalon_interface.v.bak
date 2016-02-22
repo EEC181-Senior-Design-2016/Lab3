@@ -1,0 +1,78 @@
+module reg32_master_avalon_interface(
+input clk,
+input reset_n,
+input write,
+input [31:0] writedata,
+input read,
+output [31:0] readdata,
+input [3:0] byteenable_m,
+input chipselect_m,
+output [31:0] Q_external
+);
+
+wire [3:0] local_byteenable;
+wire [31:0] to_reg, from_reg;
+assign to_reg = writedata;
+assign readdata = from_reg;
+assign Q_external = from_reg;
+assign local_byteenable = (chipselect & write) ? byteenable : 4'd0;
+
+//***************************** 50MHz -> 1sec ********
+parameter Max_Count = 'd50_000_000;
+reg [25:0] Curr_count = 0;
+reg [25:0] Next_count = 0;
+reg Curr_done = 0;
+reg Next_done = 0;
+
+always @(posedge clock, posedge reset) begin
+
+		if (reset) begin 
+			Curr_count <= 0;
+		end //if (reset)
+		else begin
+			Curr_count <= Next_count;		
+		end // else
+		
+end // always update Count every clock
+
+always @(*) begin
+
+		if (!Tick) begin 
+			Next_count <= Curr_count + 1;			
+		end //if (reset)
+		else begin	
+			Next_count <= 0;							
+		end // else
+		
+end// always update when
+
+
+always @(*) begin
+	
+		if(Curr_count > Max_Count) begin
+			Next_done = 1'b1;
+		end
+		else begin
+			Next_done = 1'b0;
+		end
+		
+end
+
+//*****************************************************
+
+
+
+
+reg32_avalon_interface(
+ .clk (),								//input
+ .reset_n (),							//input
+ .write (),							//input
+ .writedata (),				//input [31:0]
+ .read (),								//input
+ .readdata (),				//output [31:0]
+ .byteenable (4'b1111),				//input [3:0]
+ .chipselect(),						//input 
+ .Q_external()			//output [31:0]
+);
+
+endmodule

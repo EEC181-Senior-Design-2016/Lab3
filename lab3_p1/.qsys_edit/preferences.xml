@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable filter="All Interfaces">
+  <columns>
+   <connections preferredWidth="175" />
+   <irq preferredWidth="47" />
+   <name preferredWidth="216" />
+   <inputclock preferredWidth="121" />
+  </columns>
+ </systemtable>
+ <library expandedCategories="Library,Project,Project/My Own IP Cores" />
+ <window width="1928" height="1059" x="-4" y="-3" />
+ <hdlexample language="VERILOG" />
+ <generation path="_PROJECT_NAME_" />
+</preferences>
